@@ -1,0 +1,234 @@
+/* Reset global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #010b25;
+}
+body {
+  height: 100vh;
+  background-color: #010b25;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 40px 70px;
+  background-color: #01082e; /* cor escura igual à imagem */
+}
+
+.cabecalho a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans;
+  font-weight: 600;
+}
+
+.apresentacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  background-color: #010b25;
+}
+
+.texto-apresentacao {
+  max-width: 50%;
+}
+
+.texto-apresentacao h1 {
+  font-size: 48px;
+  color: white;
+}
+
+.texto-apresentacao p {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.highlight {
+  color: lightskyblue;
+  font-style: italic;
+}
+
+.imagem-apresentacao {
+  max-width: 40%;
+}
+
+.foto-perfil {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+/* button::before{
+  background: #007bff;
+  transition: all 0.7s;
+}
+
+button:hover::before{
+  top: -30px;
+  left: -30px;
+}
+
+button:active::before{
+background-color: #007bff;
+transition: background 0s;
+} */
+
+section{
+  padding: 60px;
+  text-align: center;
+}
+
+.sobre{
+  display: flex; 
+  justify-content: start;
+  gap: 20px;
+  max-width: 6000px;
+  padding-left: 50px;
+  margin-left: 0px;
+  align-items: center;
+  background-color: #010b25;
+  color:white; 
+  margin-bottom: 50px;
+  
+}
+
+
+.sobre_mim{
+  display: flex;
+  flex-direction: row;
+  flex: 1; 
+  padding-right: 100px; 
+}
+
+.sobre_mim h2{
+  color: white;
+  text-align: start;
+  margin-left: 30px;
+}
+
+.sobre_mim_texto{
+  display: flex;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+.imagem_sobre{
+  width: 100px; 
+  height: 100px;
+  margin-right: 15px;
+  margin-left: 50px;
+  max-width: 70px;
+  height: auto;
+  justify-content: flex-end;
+  align-items: center;
+}
+.stats{
+margin-left: 100px;
+}
+
+.github_stats{
+ margin-bottom: 40px;
+}
+
+.habilidades{
+  justify-content: start;
+  flex: 1; 
+  padding-left: 20px;
+  background-color: #010b25;
+  color: white;
+
+}
+ 
+.habilidades h2{
+justify-content: center;
+}
+
+.contato {
+  background-color: #010b25;
+  color: white;
+}
+
+.contato h2{
+  margin-bottom: 50px;
+}
+
+.habilidades h2 {
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icons i {
+  background-color: #0f172a; /* fundo escuro */
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 24px;
+  color: #3b82f6; /* azul destaque */
+  transition: transform 0.2s;
+}
+
+.icons i:hover {
+  transform: scale(1.1);
+}
+
+/* .fa-brands.fa-js{
+  font-size: 100px;
+  color: #F7DF1E;
+  
+}
+
+.fa-brands.fa-html5{
+  font-size: 100px;
+  margin-left: 20px;
+  color: orangered;
+  
+}
+
+.fa-brands.fa-css3-alt{
+  font-size: 100px;
+  margin-left: 20px;
+  color: #007bff;
+}
+
+.fa-brands.fa-github{
+  font-size: 100px;
+  margin-left: 20px;
+} */
+
+/* Melhorando botões
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-outline-primary {
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+} */
