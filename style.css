@@ -238,6 +238,27 @@ footer {
   margin-top: 4rem;
 }
 
+#cursor-light {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 0%,
+    transparent 70%
+  );
+  border-radius: 50%;
+  pointer-events: none; /* Permite clicar através do elemento */
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Fica atrás do conteúdo */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+body:hover #cursor-light {
+  opacity: 1;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   .nav-links {
