@@ -34,3 +34,34 @@ filterButtons.forEach(button => {
     });
   });
 });
+
+
+document.addEventListener('mousemove', (e) => {
+  const light = document.getElementById('cursor-light');
+  light.style.left = `${e.clientX}px`;
+  light.style.top = `${e.clientY}px`;
+});
+
+let mouseX = 0, mouseY = 0;
+let lightX = 0, lightY = 0;
+const speed = 0.1; // Controla a suavidade (0.1 a 0.9)
+
+function animate() {
+  const light = document.getElementById('cursor-light');
+  
+  // Calcula a nova posição com suavização
+  lightX += (mouseX - lightX) * speed;
+  lightY += (mouseY - lightY) * speed;
+  
+  light.style.left = `${lightX}px`;
+  light.style.top = `${lightY}px`;
+  
+  requestAnimationFrame(animate);
+}
+
+document.addEventListener('mousemove', (e) => {
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+});
+
+animate(); // Inicia a animação
