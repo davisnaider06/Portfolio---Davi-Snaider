@@ -64,9 +64,10 @@ O objetivo deste projeto foi criar um portfólio pessoal interativo e responsivo
 
 ## 🖼️ Prévia
 
-![Imagem do Projeto](./assets/Captura%20de%20tela%202025-05-27%20020317.png)
+![Captura de tela 2025-05-28 163806](https://github.com/user-attachments/assets/ea6da29f-61ff-4912-bff4-cc3647cb2206)
 
 ---
+
 
 ## 📄 Licença
 
